@@ -14,6 +14,8 @@
 		8EBF836F21747322002381A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF836D21747322002381A8 /* Main.storyboard */; };
 		8EBF837B21747322002381A8 /* TMOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF837A21747322002381A8 /* TMOTests.swift */; };
 		8EBF838621747322002381A8 /* TMOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF838521747322002381A8 /* TMOUITests.swift */; };
+		8ED770C421BABB4200BB43A9 /* TheoreticalCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED770C321BABB4200BB43A9 /* TheoreticalCalculator.swift */; };
+		8ED770C621BAC48700BB43A9 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED770C521BAC48700BB43A9 /* RandomGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		8EBF838121747322002381A8 /* TMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBF838521747322002381A8 /* TMOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMOUITests.swift; sourceTree = "<group>"; };
 		8EBF838721747322002381A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED770C321BABB4200BB43A9 /* TheoreticalCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoreticalCalculator.swift; sourceTree = "<group>"; };
+		8ED770C521BAC48700BB43A9 /* RandomGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGenerator.swift; sourceTree = "<group>"; };
 		D640C159BD9409771B455C74 /* Pods_TMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0359D45D1C163746E4D82A /* Pods-TMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMO.debug.xcconfig"; path = "Target Support Files/Pods-TMO/Pods-TMO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +115,7 @@
 		8EBF836621747321002381A8 /* TMO */ = {
 			isa = PBXGroup;
 			children = (
+				8ED770C221BABB2000BB43A9 /* Util */,
 				8ED770C121BA991C00BB43A9 /* Interface */,
 				8EBF836721747321002381A8 /* AppDelegate.swift */,
 				8EBF836B21747322002381A8 /* Assets.xcassets */,
@@ -145,6 +150,15 @@
 				8EBF836921747321002381A8 /* ViewController.swift */,
 			);
 			path = Interface;
+			sourceTree = "<group>";
+		};
+		8ED770C221BABB2000BB43A9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8ED770C321BABB4200BB43A9 /* TheoreticalCalculator.swift */,
+				8ED770C521BAC48700BB43A9 /* RandomGenerator.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		DB4938C8AF964440E3E5A6B5 /* Pods */ = {
@@ -335,6 +349,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED770C621BAC48700BB43A9 /* RandomGenerator.swift in Sources */,
+				8ED770C421BABB4200BB43A9 /* TheoreticalCalculator.swift in Sources */,
 				8EBF836A21747321002381A8 /* ViewController.swift in Sources */,
 				8EBF836821747321002381A8 /* AppDelegate.swift in Sources */,
 			);
