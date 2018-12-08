@@ -724,6 +724,9 @@
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
                                                     </buttonCell>
+                                                    <connections>
+                                                        <action selector="calculate:" target="XfG-lQ-9wD" id="p1M-5e-3U1"/>
+                                                    </connections>
                                                 </button>
                                                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="Xha-iD-cmg">
                                                     <rect key="frame" x="149" y="296" width="437" height="118"/>
@@ -744,7 +747,7 @@
                                                                     <subviews>
                                                                         <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="m50-vE-dkd">
                                                                             <rect key="frame" x="0.0" y="0.0" width="96" height="22"/>
-                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="0" drawsBackground="YES" id="Jcg-We-VHE">
+                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="0.95" drawsBackground="YES" id="Jcg-We-VHE">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -791,7 +794,7 @@
                                                                         </textField>
                                                                         <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZHL-eC-F6v">
                                                                             <rect key="frame" x="104" y="0.0" width="96" height="22"/>
-                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="0" drawsBackground="YES" id="Ov1-Mr-N9O">
+                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="0.875" drawsBackground="YES" id="Ov1-Mr-N9O">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -838,7 +841,7 @@
                                                                         </textField>
                                                                         <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HYn-Ma-Fms">
                                                                             <rect key="frame" x="208" y="0.0" width="96" height="22"/>
-                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="0" drawsBackground="YES" id="7au-r9-xIB">
+                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="0.9" drawsBackground="YES" id="7au-r9-xIB">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1363,6 +1366,26 @@
                             <constraint firstAttribute="bottom" secondItem="pph-dz-63t" secondAttribute="bottom" id="sit-uQ-bZu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="EText" destination="InF-2q-AWe" id="GYt-ab-Boz"/>
+                        <outlet property="NText" destination="J0s-oK-dHV" id="tkV-Zd-75d"/>
+                        <outlet property="P0Checker" destination="X0a-sv-U19" id="WeA-nl-yHQ"/>
+                        <outlet property="P1Checker" destination="V7r-qO-Lh4" id="eVW-aV-fTC"/>
+                        <outlet property="P2Checker" destination="vWy-lY-S4r" id="zrU-6W-XcR"/>
+                        <outlet property="TText" destination="Qbg-Wm-pbP" id="QIt-PA-t7S"/>
+                        <outlet property="averageTimeLable" destination="Anq-iD-xZB" id="a5K-zH-64V"/>
+                        <outlet property="intensityChart" destination="nSV-LK-kx4" id="nBf-RE-2hV"/>
+                        <outlet property="intensityTable" destination="whc-vC-yYs" id="jx5-R4-Bfd"/>
+                        <outlet property="l00Text" destination="Jcg-We-VHE" id="uwD-Cy-trD"/>
+                        <outlet property="l01Text" destination="M7S-fg-npm" id="lbm-NP-5tJ"/>
+                        <outlet property="l02Text" destination="NYn-96-uRs" id="qZt-I0-4Gg"/>
+                        <outlet property="l10Text" destination="9Qt-3u-TxF" id="gD6-vx-9dz"/>
+                        <outlet property="l11Text" destination="Ov1-Mr-N9O" id="kwa-a2-Jhw"/>
+                        <outlet property="l12Text" destination="FHd-zD-HTl" id="oFA-Mu-SrN"/>
+                        <outlet property="l20Text" destination="FR2-GG-oR8" id="5KV-9i-Iqk"/>
+                        <outlet property="l21Text" destination="RGR-Vv-NJq" id="WjA-mF-TB8"/>
+                        <outlet property="l22Text" destination="7au-r9-xIB" id="f1o-Pa-3Xl"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
